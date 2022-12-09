@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node
-          uses: actions/setup-node@v1
-          with:
-            node-version: 19.2.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 19.2.0
       - name: Checkout
         uses: actions/checkout@v2
       - name: Cypress run
