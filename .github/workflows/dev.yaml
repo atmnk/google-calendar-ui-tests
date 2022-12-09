@@ -11,10 +11,7 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v4.x.x # use the explicit version number
+        uses: cypress-io/github-action@v4
         env:
           CYPRESS_USERNAME: ${{secrets.USERNAME}}
           CYPRESS_PASSWORD: ${{secrets.PASSWORD}}
-        with:
-          build: yarn run build
-          start: yarn start
