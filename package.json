@@ -1,0 +1,7 @@
+{
+  "name": "google-calendar-ui-tests",
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "cypress": "^12.0.1"
+  }
+}
